@@ -4,11 +4,11 @@ import {
   createTable,
   TableOptionsResolved,
   RowData,
-} from '@tanstack/table-core'
+} from '@tanstack-rtl/table-core'
 import { createComputed, mergeProps, createComponent } from 'solid-js'
 import { createStore } from 'solid-js/store'
 
-export * from '@tanstack/table-core'
+export * from '@tanstack-rtl/table-core'
 
 export function flexRender<TProps extends {}>(Comp: any, props: TProps) {
   if (!Comp) return null

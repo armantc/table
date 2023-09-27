@@ -135,9 +135,9 @@ To make a ranking/filtering/sorting system work with tables, `filterFn`s can opt
 Below is an example using our own `match-sorter-utils` package (a utility fork of `match-sorter`) to rank, filter, and sort the data
 
 ```tsx
-import { sortingFns } from '@tanstack/react-table'
+import { sortingFns } from '@tanstack-rtl/react-table'
 
-import { rankItem, compareItems } from '@tanstack/match-sorter-utils'
+import { rankItem, compareItems } from '@tanstack-rtl/match-sorter-utils'
 
 const fuzzyFilter = (row, columnId, value, addMeta) => {
   // Rank the item
@@ -323,7 +323,7 @@ This option allows you to define custom filter functions that can be referenced 
 Example:
 
 ```tsx
-declare module '@tanstack/table-core' {
+declare module '@tanstack-rtl/table-core' {
   interface FilterFns {
     myCustomFilter: FilterFn<unknown>
   }
@@ -409,7 +409,7 @@ If provided, this function is called **once** per table and should return a **ne
 Example:
 
 ```tsx
-import { getFilteredRowModel } from '@tanstack/[adapter]-table'
+import { getFilteredRowModel } from '@tanstack-rtl/[adapter]-table'
 
 
   getFilteredRowModel: getFilteredRowModel(),

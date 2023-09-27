@@ -6,7 +6,7 @@ import {
   SortingState,
   createColumnHelper,
   getSortedRowModel,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 import { h, ref } from 'vue'
 import { makeData, Person } from './makeData'
 

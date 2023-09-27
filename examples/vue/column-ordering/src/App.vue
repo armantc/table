@@ -6,7 +6,7 @@ import {
   useVueTable,
   type Column,
   createColumnHelper,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 
 import { makeData, type Person } from './makeData'
 import { ref } from 'vue'

@@ -21,17 +21,17 @@ import {
   ColumnDef,
   flexRender,
   FilterFns,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 
 import {
   RankingInfo,
   rankItem,
   compareItems,
-} from '@tanstack/match-sorter-utils'
+} from '@tanstack-rtl/match-sorter-utils'
 
 import { makeData, Person } from './makeData'
 
-declare module '@tanstack/table-core' {
+declare module '@tanstack-rtl/table-core' {
   interface FilterFns {
     fuzzy: FilterFn<unknown>
   }

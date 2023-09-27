@@ -9,7 +9,7 @@ import {
   flexRender,
   getCoreRowModel,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { makeData, Person } from './makeData'
 
 import { DndProvider, useDrag, useDrop } from 'react-dnd'

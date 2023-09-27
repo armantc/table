@@ -22,7 +22,7 @@ import {
   getPaginationRowModel,
   ColumnDef,
   flexRender,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 
 import TablePaginationActions from './actions'
 import { makeData, Person } from './makeData'

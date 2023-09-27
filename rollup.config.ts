@@ -50,7 +50,7 @@ export default function rollup(options: RollupOptions): RollupOptions[] {
       jsName: 'ReactTable',
       outputFile: 'index',
       entryFile: 'src/index.tsx',
-      external: ['react', '@tanstack/table-core'],
+      external: ['react', '@tanstack-rtl/table-core'],
       globals: {
         react: 'React',
       },
@@ -61,7 +61,7 @@ export default function rollup(options: RollupOptions): RollupOptions[] {
       jsName: 'SolidTable',
       outputFile: 'index',
       entryFile: 'src/index.tsx',
-      external: ['solid-js', 'solid-js/store', '@tanstack/table-core'],
+      external: ['solid-js', 'solid-js/store', '@tanstack-rtl/table-core'],
       globals: {
         'solid-js': 'Solid',
         'solid-js/store': 'SolidStore',
@@ -73,7 +73,7 @@ export default function rollup(options: RollupOptions): RollupOptions[] {
       jsName: 'VueTable',
       outputFile: 'index',
       entryFile: 'src/index.ts',
-      external: ['vue', '@tanstack/table-core'],
+      external: ['vue', '@tanstack-rtl/table-core'],
       globals: {
         vue: 'Vue',
       },
@@ -88,7 +88,7 @@ export default function rollup(options: RollupOptions): RollupOptions[] {
         'svelte',
         'svelte/internal',
         'svelte/store',
-        '@tanstack/table-core',
+        '@tanstack-rtl/table-core',
       ],
       globals: {
         svelte: 'Svelte',
@@ -102,10 +102,10 @@ export default function rollup(options: RollupOptions): RollupOptions[] {
       jsName: 'ReactTableDevtools',
       outputFile: 'index',
       entryFile: 'src/index.tsx',
-      external: ['react', '@tanstack/react-table'],
+      external: ['react', '@tanstack-rtl/react-table'],
       globals: {
         react: 'React',
-        '@tanstack/react-table': 'ReactTable',
+        '@tanstack-rtl/react-table': 'ReactTable',
       },
     }),
     ...buildConfigs({

@@ -82,7 +82,7 @@ meta?: TableMeta // This interface is extensible via declaration merging. See be
 You can pass any object to `options.meta` and access it anywhere the `table` is available via `table.options.meta` This type is global to all tables and can be extended like so:
 
 ```tsx
-declare module '@tanstack/table-core' {
+declare module '@tanstack-rtl/table-core' {
   interface TableMeta<TData extends RowData> {
     foo: string
   }

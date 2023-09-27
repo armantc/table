@@ -4,7 +4,7 @@ import {
   getCoreRowModel,
   TableOptions,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { fireEvent, render, screen } from '@testing-library/react'
 import React, { FC } from 'react'
 

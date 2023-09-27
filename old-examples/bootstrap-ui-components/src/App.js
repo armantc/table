@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import BTable from "react-bootstrap/Table";
 
-import { useTable } from "@tanstack/react-table";
+import { useTable } from "@tanstack-rtl/react-table";
 
 import makeData from "./makeData";
 

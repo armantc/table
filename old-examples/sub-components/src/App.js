@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useTable, useExpanded } from '@tanstack/react-table'
+import { useTable, useExpanded } from '@tanstack-rtl/react-table'
 
 import makeData from './makeData'
 

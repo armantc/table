@@ -5,7 +5,7 @@ import {
   getPaginationRowModel,
   useVueTable,
   createColumnHelper,
-} from "@tanstack/vue-table";
+} from "@tanstack-rtl/vue-table";
 import { ref } from "vue";
 import { makeData, Person } from "./makeData";
 

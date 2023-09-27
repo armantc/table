@@ -5,7 +5,7 @@ import {
   useSortBy,
   useFilters,
   useColumnOrder,
-} from "@tanstack/react-table";
+} from "@tanstack-rtl/react-table";
 import { motion, AnimatePresence } from "framer-motion";
 import matchSorter from "match-sorter";
 

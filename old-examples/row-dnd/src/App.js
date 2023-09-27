@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useTable } from "@tanstack/react-table";
+import { useTable } from "@tanstack-rtl/react-table";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import HTML5Backend from "react-dnd-html5-backend";
 import update from "immutability-helper";

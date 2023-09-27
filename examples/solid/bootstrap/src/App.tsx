@@ -3,7 +3,7 @@ import {
   getCoreRowModel,
   ColumnDef,
   createSolidTable,
-} from '@tanstack/solid-table'
+} from '@tanstack-rtl/solid-table'
 import { createSignal, For } from 'solid-js'
 import { makeData, Person } from './makeData'
 import { Table as BTable } from 'solid-bootstrap'

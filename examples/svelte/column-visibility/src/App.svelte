@@ -7,7 +7,7 @@
     TableOptions,
     flexRender,
     ColumnDef,
-  } from '@tanstack/svelte-table'
+  } from '@tanstack-rtl/svelte-table'
   import './index.css'
 
   type Person = {

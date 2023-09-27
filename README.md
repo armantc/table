@@ -1,32 +1,32 @@
-![TanStack Table Header](https://github.com/tanstack/table/raw/main/media/repo-header.png)
+![TanStack Table Header](https://github.com/armantc/table/raw/main/media/repo-header.png)
 
-# [TanStack](https://tanstack.com) Table v8
+# [TanStack](https://tanstack.com) Table v8 , RTL Fixed
 
 Headless UI for building **powerful tables & datagrids** for **React, Solid, Vue, Svelte and TS/JS**.
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=TanStack" target="\_parent">
   <img alt="#TanStack" src="https://img.shields.io/twitter/url?color=%2308a0e9&label=%23TanStack&style=social&url=https%3A%2F%2Ftwitter.com%2Fintent%2Ftweet%3Fbutton_hashtag%3DTanStack" />
-</a><a href="https://github.com/tanstack/table/actions?table=workflow%3A%22react-table+tests%22">
-<img src="https://github.com/tanstack/table/workflows/react-table%20tests/badge.svg" />
-</a><a href="https://npmjs.com/package/@tanstack/react-table" target="\_parent">
-  <img alt="" src="https://img.shields.io/npm/dm/@tanstack/react-table.svg" />
-</a><a href="https://bundlephobia.com/result?p=@tanstack/react-table@latest" target="\_parent">
-  <img alt="" src="https://badgen.net/bundlephobia/minzip/@tanstack/react-table@latest" />
+</a><a href="https://github.com/armantc/table/actions?table=workflow%3A%22react-table+tests%22">
+<img src="https://github.com/armantc/table/workflows/react-table%20tests/badge.svg" />
+</a><a href="https://npmjs.com/package/@tanstack-rtl/react-table" target="\_parent">
+  <img alt="" src="https://img.shields.io/npm/dm/@tanstack-rtl/react-table.svg" />
+</a><a href="https://bundlephobia.com/result?p=@tanstack-rtl/react-table@latest" target="\_parent">
+  <img alt="" src="https://badgen.net/bundlephobia/minzip/@tanstack-rtl/react-table@latest" />
 </a><a href="#badge">
     <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
-  </a><a href="https://github.com/tanstack/table/discussions">
+  </a><a href="https://github.com/armantc/table/discussions">
   <img alt="Join the discussion on Github" src="https://img.shields.io/badge/Github%20Discussions%20%26%20Support-Chat%20now!-blue" />
-</a><a href="https://github.com/tanstack/table" target="\_parent">
+</a><a href="https://github.com/armantc/table" target="\_parent">
   <img alt="" src="https://img.shields.io/github/stars/tanstack/react-table.svg?style=social&label=Star" />
 </a><a href="https://twitter.com/tannerlinsley" target="\_parent">
   <img alt="" src="https://img.shields.io/twitter/follow/tannerlinsley.svg?style=social&label=Follow" />
 </a>
 
-> [Looking for version 7 of `react-table`? Click here!](https://github.com/tanstack/table/tree/v7)
+> [Looking for version 7 of `react-table`? Click here!](https://github.com/armantc/table/tree/v7)
 
 ## Enjoy this library?
 
-Try some other [TanStack](https://tanstack.com) like [React Query](https://github.com/TanStack/query), [React Form](https://github.com/tannerlinsley/react-form), [React Charts](https://github.com/TanStack/react-charts)
+Try some other [TanStack](https://tanstack.com) like [React Query](https://github.com/armantc/query), [React Form](https://github.com/tannerlinsley/react-form), [React Charts](https://github.com/armantc/react-charts)
 
 ## Visit [tanstack.com/table](https://tanstack.com/table) for docs, guides, API and more!
 
@@ -109,7 +109,7 @@ There are a fair amount of breaking changes (they're worth it, trust us!):
   - [x] Column Sizing
   - [x] Pagination
   - [x] Row Selection
-- [ ] Migrate [Examples](https://github.com/tanstack/table/tree/main/examples)
+- [ ] Migrate [Examples](https://github.com/armantc/table/tree/main/examples)
   - [x] column-visibility
   - [x] column-ordering
   - [x] column-pinning
@@ -143,22 +143,22 @@ There are a fair amount of breaking changes (they're worth it, trust us!):
 
 ```bash
 # Npm
-npm install @tanstack/react-table
-npm install @tanstack/solid-table
-npm install @tanstack/vue-table
-npm install @tanstack/svelte-table
+npm install @tanstack-rtl/react-table
+npm install @tanstack-rtl/solid-table
+npm install @tanstack-rtl/vue-table
+npm install @tanstack-rtl/svelte-table
 
 #pnpm
-pnpm install @tanstack/react-table
-pnpm install @tanstack/solid-table
-pnpm install @tanstack/vue-table
-pnpm install @tanstack/svelte-table
+pnpm install @tanstack-rtl/react-table
+pnpm install @tanstack-rtl/solid-table
+pnpm install @tanstack-rtl/vue-table
+pnpm install @tanstack-rtl/svelte-table
 
 #Yarn
-yarn add @tanstack/react-table
-yarn add @tanstack/solid-table
-yarn add @tanstack/vue-table
-yarn add @tanstack/svelte-table
+yarn add @tanstack-rtl/react-table
+yarn add @tanstack-rtl/solid-table
+yarn add @tanstack-rtl/vue-table
+yarn add @tanstack-rtl/svelte-table
 ```
 
 ## How to help?
@@ -166,8 +166,8 @@ yarn add @tanstack/svelte-table
 - Try out the already-migrated examples
 - Try it out in your own projects.
 - Introspect the types! Even without the docs finished, the library ships with 100% typescript to help you explore its capabilities.
-- [Read the contribution guidelines](https://github.com/tanstack/table/tree/main/CONTRIBUTING.md)
-- Write some docs! Start with the [API docs](https://github.com/TanStack/react-table/tree/main/docs/api) and try adding some information about one or more of the features. The types do a decent job of showing what's supported and the capabilities of the library.
+- [Read the contribution guidelines](https://github.com/armantc/table/tree/main/CONTRIBUTING.md)
+- Write some docs! Start with the [API docs](https://github.com/armantc/react-table/tree/main/docs/api) and try adding some information about one or more of the features. The types do a decent job of showing what's supported and the capabilities of the library.
 - Try your hand at migrating an example to v8! The todo list for the examples is above!
 - **Using a plugin?** Try rewriting your plugin (v8 doesn't have a plugin system any more) as a functional wrapper that uses TanStack Table internally. The new API is much more powerful and easier to compose. If you find something you can't figure out, let us know and we'll add it to the API.
 

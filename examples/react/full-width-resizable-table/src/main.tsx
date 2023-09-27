@@ -7,7 +7,7 @@ import {
   ColumnDef,
   flexRender,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { makeData, Person } from './makeData'
 
 const columns: ColumnDef<Person>[] = [

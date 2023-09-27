@@ -3,14 +3,14 @@ import {
   FilterFn,
   SortingFn,
   sortingFns,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import React from 'react'
 import { Person } from './makeData'
 import {
   rankItem,
   compareItems,
   RankingInfo,
-} from '@tanstack/match-sorter-utils'
+} from '@tanstack-rtl/match-sorter-utils'
 import IndeterminateCheckbox from './components/InderterminateCheckbox'
 
 export const fuzzyFilter: FilterFn<Person> = (

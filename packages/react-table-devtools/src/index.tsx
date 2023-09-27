@@ -1,5 +1,5 @@
 import React from 'react'
-import { Table } from '@tanstack/react-table'
+import { Table } from '@tanstack-rtl/react-table'
 
 import useLocalStorage from './useLocalStorage'
 import { useIsMounted } from './utils'

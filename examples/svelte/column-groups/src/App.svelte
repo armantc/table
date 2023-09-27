@@ -6,7 +6,7 @@
     flexRender,
     getCoreRowModel,
     TableOptions,
-  } from '@tanstack/svelte-table'
+  } from '@tanstack-rtl/svelte-table'
   import './index.css'
 
   type Person = {

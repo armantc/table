@@ -1,4 +1,4 @@
-import { Column, RowData, Table } from '@tanstack/react-table'
+import { Column, RowData, Table } from '@tanstack-rtl/react-table'
 import React from 'react'
 import DebouncedInput from './DebouncedInput'
 

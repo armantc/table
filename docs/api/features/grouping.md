@@ -232,7 +232,7 @@ This option allows you to define custom aggregation functions that can be refere
 Example:
 
 ```tsx
-declare module '@tanstack/table-core' {
+declare module '@tanstack-rtl/table-core' {
   interface AggregationFns {
     myCustomAggregation: AggregationFn<unknown>
   }

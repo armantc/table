@@ -1,12 +1,12 @@
 import * as React from 'react'
-export * from '@tanstack/table-core'
+export * from '@tanstack-rtl/table-core'
 
 import {
   TableOptions,
   TableOptionsResolved,
   RowData,
   createTable,
-} from '@tanstack/table-core'
+} from '@tanstack-rtl/table-core'
 
 export type Renderable<TProps> = React.ReactNode | React.ComponentType<TProps>
 

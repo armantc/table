@@ -9,7 +9,7 @@ import {
   getCoreRowModel,
   getPaginationRowModel,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { makeData } from './makeData'
 
 type Person = {

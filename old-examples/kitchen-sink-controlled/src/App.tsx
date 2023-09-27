@@ -8,7 +8,7 @@ import {
   // useGroupBy,
   // useExpanded,
   // useRowSelect,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import matchSorter from 'match-sorter'
 
 import makeData from './makeData'

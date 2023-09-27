@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker'
-import { ColumnSort, SortingState } from '@tanstack/react-table'
+import { ColumnSort, SortingState } from '@tanstack-rtl/react-table'
 
 export type Person = {
   id: number

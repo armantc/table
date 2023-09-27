@@ -243,7 +243,7 @@ This option allows you to define custom sorting functions that can be referenced
 Example:
 
 ```tsx
-declare module '@tanstack/table-core' {
+declare module '@tanstack-rtl/table-core' {
   interface SortingFns {
     myCustomSorting: SortingFn<unknown>
   }

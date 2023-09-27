@@ -18,7 +18,7 @@
       ]
     },
     "build": {
-      "command": "echo \"  @tanstack/table > All packages built! 📦\"",
+      "command": "echo \"  @tanstack-rtl/table > All packages built! 📦\"",
       "dependsOn": ["build-js", "typecheck"],
       "inputs": ["packageSources"]
     },

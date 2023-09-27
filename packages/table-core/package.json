@@ -1,13 +1,13 @@
 {
-  "name": "@tanstack/table-core",
+  "name": "@tanstack-rtl/table-core",
   "author": "Tanner Linsley",
   "version": "8.10.3",
   "description": "Headless UI for building powerful tables & datagrids for TS/JS.",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/armantc/table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/armantc/table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

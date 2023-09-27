@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useTable, useBlockLayout } from "@tanstack/react-table";
+import { useTable, useBlockLayout } from "@tanstack-rtl/react-table";
 import { FixedSizeList } from "react-window";
 
 import makeData from "./makeData";

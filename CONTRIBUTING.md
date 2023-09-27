@@ -7,11 +7,11 @@ id: contributing
 
 ## Questions
 
-If you have questions about implementation details, help or support, then please use our dedicated community forum at [Github Discussions](https://github.com/tanstack/table/discussions) **PLEASE NOTE:** If you choose to instead open an issue for your question, your issue will be immediately closed and redirected to the forum.
+If you have questions about implementation details, help or support, then please use our dedicated community forum at [Github Discussions](https://github.com/armantc/table/discussions) **PLEASE NOTE:** If you choose to instead open an issue for your question, your issue will be immediately closed and redirected to the forum.
 
 ## Reporting Issues
 
-If you have found what you think is a bug, please [file an issue](https://github.com/tanstack/table/issues/new). **PLEASE NOTE:** Issues that are identified as implementation questions or non-issues will be immediately closed and redirected to [Github Discussions](https://github.com/tanstack/table/discussions)
+If you have found what you think is a bug, please [file an issue](https://github.com/armantc/table/issues/new). **PLEASE NOTE:** Issues that are identified as implementation questions or non-issues will be immediately closed and redirected to [Github Discussions](https://github.com/armantc/table/discussions)
 
 ## Suggesting new features
 
@@ -37,7 +37,7 @@ Before proceeding with development, ensure you match one of the following criter
   - Starting the dev server with `yarn start`
 - To test in your own projects:
   - Build/watch for changes with `yarn build`/`yarn dev`
-  - Link the appropriate package eg. `yarn link @tanstack/react-table`
+  - Link the appropriate package eg. `yarn link @tanstack-rtl/react-table`
 - Document your changes in the appropriate documentation website markdown pages
 - Commit your work and open a pull request
 - Submit PR for review

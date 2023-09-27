@@ -1,4 +1,4 @@
-import { ColumnPinningPosition } from '@tanstack/react-table'
+import { ColumnPinningPosition } from '@tanstack-rtl/react-table'
 import React from 'react'
 
 type Props = {

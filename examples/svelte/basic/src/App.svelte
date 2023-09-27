@@ -4,8 +4,8 @@
     createSvelteTable,
     flexRender,
     getCoreRowModel,
-  } from '@tanstack/svelte-table'
-  import type { ColumnDef, TableOptions } from '@tanstack/table-core/src/types';
+  } from '@tanstack-rtl/svelte-table'
+  import type { ColumnDef, TableOptions } from '@tanstack-rtl/table-core/src/types';
   import './index.css'
 
   type Person = {

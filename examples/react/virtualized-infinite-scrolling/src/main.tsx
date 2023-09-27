@@ -12,7 +12,7 @@ import {
   Row,
   SortingState,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import {
   QueryClient,
   QueryClientProvider,

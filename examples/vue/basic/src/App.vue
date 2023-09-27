@@ -4,7 +4,7 @@ import {
   getCoreRowModel,
   useVueTable,
   createColumnHelper,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 import { ref } from 'vue'
 
 type Person = {

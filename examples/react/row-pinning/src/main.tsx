@@ -18,7 +18,7 @@ import {
   RowPinningState,
   Table,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 
 function App() {
   const rerender = React.useReducer(() => ({}), {})[1]

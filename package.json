@@ -1,6 +1,6 @@
 {
   "private": true,
-  "repository": "https://github.com/tanstack/table.git",
+  "repository": "https://github.com/armantc/table.git",
   "scripts": {
     "clean": "npm exec --workspaces -c \"rm -rf build || true\"",
     "test": "(is-ci && npm run test:ci) || npm run test:dev",
@@ -8,7 +8,7 @@
     "test:dev": "vitest --watch",
     "build": "nx build root",
     "watch": "concurrently --kill-others \"rollup --config rollup.config.js -w\" \"tsc -b --watch\"",
-    "linkAll": "lerna exec 'npm link' --parallel",
+    "linkAll": "lerna exec npm link --parallel",
     "unlinkAll": "lerna exec 'npm unlink' --parallel",
     "dev": "npm run watch",
     "prettier": "prettier \"packages/*/{src/**,examples/**/src/**}.{md,js,jsx,ts,tsx,json}\" --write",
@@ -18,7 +18,7 @@
     "typecheck": "nx typecheck root",
     "pr": "nx run-many --targets=test:ci,build,typecheck --projects=root"
   },
-  "namespace": "@tanstack",
+  "namespace": "@tanstack-rtl",
   "workspaces": [
     "./examples/react/basic",
     "./examples/react/bootstrap",

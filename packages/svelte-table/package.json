@@ -1,13 +1,13 @@
 {
-  "name": "@tanstack/svelte-table",
+  "name": "@tanstack-rtl/svelte-table",
   "author": "Tanner Linsley",
   "version": "8.10.3",
   "description": "Headless UI for building powerful tables & datagrids for Svelte.",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/armantc/table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/armantc/table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -42,7 +42,7 @@
     "src"
   ],
   "dependencies": {
-    "@tanstack/table-core": "8.10.3"
+    "@tanstack-rtl/table-core": "8.10.3"
   },
   "peerDependencies": {
     "svelte": "^4.0.0 || ^3.49.0"

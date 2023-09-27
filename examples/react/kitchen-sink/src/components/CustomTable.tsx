@@ -4,7 +4,7 @@ import {
   Row,
   RowData,
   Table,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import React from 'react'
 import Filter from './Filter'
 import TablePins from './TablePins'

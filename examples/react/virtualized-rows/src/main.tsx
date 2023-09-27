@@ -11,7 +11,7 @@ import {
   Row,
   SortingState,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { makeData, Person } from './makeData'
 import { useVirtual } from 'react-virtual'
 

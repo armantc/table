@@ -4,7 +4,7 @@ import {
   VisibilityState,
   ColumnDef,
   createSolidTable,
-} from '@tanstack/solid-table'
+} from '@tanstack-rtl/solid-table'
 import { createSignal, For, Show } from 'solid-js'
 
 type Person = {

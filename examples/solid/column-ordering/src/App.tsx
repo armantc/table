@@ -8,7 +8,7 @@ import {
   VisibilityState,
   ColumnDef,
   createSolidTable,
-} from '@tanstack/solid-table'
+} from '@tanstack-rtl/solid-table'
 
 const defaultColumns: ColumnDef<Person>[] = [
   {

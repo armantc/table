@@ -5,7 +5,7 @@ import {
   SortingState,
   ColumnDef,
   createSolidTable,
-} from '@tanstack/solid-table'
+} from '@tanstack-rtl/solid-table'
 import { makeData, Person } from './makeData'
 import { createSignal, For, Show } from 'solid-js'
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { useTable, useBlockLayout, useRowSelect } from "@tanstack/react-table";
+import { useTable, useBlockLayout, useRowSelect } from "@tanstack-rtl/react-table";
 
 const Styles = styled.div`
   padding: 1rem;

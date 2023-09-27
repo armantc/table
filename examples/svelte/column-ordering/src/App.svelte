@@ -7,7 +7,7 @@
     TableOptions,
     flexRender,
     ColumnDef,
-  } from '@tanstack/svelte-table'
+  } from '@tanstack-rtl/svelte-table'
   import { makeData, Person } from './makeData'
   import { faker } from '@faker-js/faker'
   import './index.css'

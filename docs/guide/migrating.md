@@ -19,16 +19,16 @@ TanStack Table V8 was a major rewrite of React Table v7 from the ground up in Ty
 
 ### Install the new Version
 
-The new version of TanStack Table is published under the `@tanstack` scope. Install the new package using your favorite package manager:
+The new version of TanStack Table is published under the `@tanstack-rtl` scope. Install the new package using your favorite package manager:
 
 ```bash
 npm uninstall react-table @types/react-table
-npm install @tanstack/react-table
+npm install @tanstack-rtl/react-table
 ```
 
 ```diff
 - import { useTable } from 'react-table'
-+ import { useReactTable } from '@tanstack/react-table'
++ import { useReactTable } from '@tanstack-rtl/react-table'
 ```
 
 Types are now included in the base package, so you can remove the `@types/react-table` package.
@@ -47,7 +47,7 @@ Types are now included in the base package, so you can remove the `@types/react-
 +   getCoreRowModel,
 +   getPaginationRowModel,
 +   getSortedRowModel
-+ } from '@tanstack/react-table';
++ } from '@tanstack-rtl/react-table';
 
 // ...
 

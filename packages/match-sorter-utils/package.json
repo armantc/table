@@ -1,5 +1,5 @@
 {
-  "name": "@tanstack/match-sorter-utils",
+  "name": "@tanstack-rtl/match-sorter-utils",
   "authors": [
     "Kent C. Dodds",
     "Tanner Linsley"
@@ -7,10 +7,10 @@
   "version": "8.7.6",
   "description": "A fork of match-sorter with separated filtering and sorting phases",
   "license": "MIT",
-  "homepage": "https://github.com/tanstack/table#readme",
+  "homepage": "https://github.com/armantc/table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanstack/table.git"
+    "url": "git+https://github.com/armantc/table.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

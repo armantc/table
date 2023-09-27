@@ -7,7 +7,7 @@
     ColumnDef,
     TableOptions,
     flexRender
-  } from '@tanstack/svelte-table'
+  } from '@tanstack-rtl/svelte-table'
   import { makeData, Person } from './makeData'
   import './index.css'
 

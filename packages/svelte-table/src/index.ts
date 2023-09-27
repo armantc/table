@@ -3,7 +3,7 @@ import {
   createTable,
   TableOptions,
   TableOptionsResolved,
-} from '@tanstack/table-core'
+} from '@tanstack-rtl/table-core'
 import Placeholder from './placeholder'
 import type { ComponentType } from 'svelte'
 import { SvelteComponent } from 'svelte/internal'
@@ -12,7 +12,7 @@ import { renderComponent } from './render-component'
 
 export { renderComponent } from './render-component'
 
-export * from '@tanstack/table-core'
+export * from '@tanstack-rtl/table-core'
 
 function isSvelteServerComponent(component: any) {
   return (

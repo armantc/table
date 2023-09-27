@@ -4,12 +4,12 @@ import {
   FlexRender,
   getCoreRowModel,
   useVueTable,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 import type {
   Column,
   ColumnOrderState,
   ColumnPinningState,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 
 import { makeData, type Person } from './makeData'
 import { ref } from 'vue'

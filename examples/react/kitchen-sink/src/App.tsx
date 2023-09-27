@@ -10,7 +10,7 @@ import {
   getSortedRowModel,
   GroupingState,
   useReactTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import React from 'react'
 import { makeData } from './makeData'
 

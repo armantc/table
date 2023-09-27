@@ -14,7 +14,7 @@ import {
   ColumnDef,
   OnChangeFn,
   flexRender,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 
 import { makeData, Person } from './makeData'
 

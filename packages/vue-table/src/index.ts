@@ -3,11 +3,11 @@ import {
   createTable,
   TableOptionsResolved,
   RowData,
-} from '@tanstack/table-core'
+} from '@tanstack-rtl/table-core'
 import { h, watchEffect, ref, defineComponent } from 'vue'
 import { mergeProxy } from './merge-proxy'
 
-export * from '@tanstack/table-core'
+export * from '@tanstack-rtl/table-core'
 
 export const FlexRender = defineComponent({
   props: ['render', 'props'],

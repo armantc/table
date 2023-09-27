@@ -5,7 +5,7 @@ import {
   useResizeColumns,
   useFlexLayout,
   useRowSelect,
-} from "@tanstack/react-table";
+} from "@tanstack-rtl/react-table";
 
 import makeData from "./makeData";
 

@@ -15,10 +15,10 @@ import {
   getPaginationRowModel,
   flexRender,
   RowData,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 import { makeData, Person } from './makeData'
 
-declare module '@tanstack/react-table' {
+declare module '@tanstack-rtl/react-table' {
   interface TableMeta<TData extends RowData> {
     updateData: (rowIndex: number, columnId: string, value: unknown) => void
   }

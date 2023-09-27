@@ -7,7 +7,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 
-import { useTable } from "@tanstack/react-table";
+import { useTable } from "@tanstack-rtl/react-table";
 
 import makeData from "./makeData";
 

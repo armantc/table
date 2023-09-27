@@ -19,7 +19,7 @@ import {
   useRowSelect,
   useSortBy,
   useTable,
-} from '@tanstack/react-table'
+} from '@tanstack-rtl/react-table'
 
 const IndeterminateCheckbox = React.forwardRef(
   ({ indeterminate, ...rest }, ref) => {

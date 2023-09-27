@@ -352,10 +352,16 @@ export const ColumnSizing: TableFeature = {
               -0.999999
             )
 
+            //get html direction from document
+            const htmlDir = document.documentElement.getAttribute('dir');
+
+            //if html direction is rtl, create negative const
+            const rtlVal = htmlDir === 'rtl' ? -1 : 1;
+
             old.columnSizingStart.forEach(([columnId, headerSize]) => {
               newColumnSizing[columnId] =
                 Math.round(
-                  Math.max(headerSize + headerSize * deltaPercentage, 0) * 100
+                  Math.max(headerSize + headerSize * deltaPercentage * rtlVal, 0) * 100
                 ) / 100
             })
 

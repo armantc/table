@@ -7,7 +7,7 @@ import {
   useVueTable,
   createColumnHelper,
   PaginationState,
-} from '@tanstack/vue-table'
+} from '@tanstack-rtl/vue-table'
 
 import useService from './useService'
 
